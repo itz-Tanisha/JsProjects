@@ -8,7 +8,7 @@ input.addEventListener("keyup", function game(event){
     
     if (count > 0) {
         
-        if (event.code == "KeyT") {
+        if (event.code == "KeyI") {
                 span.innerText = "You Won! 🎉";
                 span.classList.add("won");
                 input.disabled = true; 
